@@ -16,7 +16,7 @@ namespace Flurl.Test.Http
 	/// FlurlHttpSettings are available at the global, test, client, and request level. This abstract class
 	/// allows the same tests to be run against settings at all 4 levels.
 	/// </summary>
-	public abstract class SettingsTestsBase
+	public abstract class SettingsTestsBase                                                                                                                                                                                                                                                                                                                      
 	{
 		protected abstract FlurlHttpSettings GetSettings();
 		protected abstract IFlurlRequest GetRequest();
